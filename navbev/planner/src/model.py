@@ -258,7 +258,6 @@ class diff_planner_ad(nn.Module):
                 c_y_partial.reshape(self.num_batch, self.num_partial_xy),
             ]
         )
-
         return b_eq_x, b_eq_y
 
     def compute_mat_inv_init(self):
