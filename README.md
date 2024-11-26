@@ -1,6 +1,6 @@
 # LeGo-Drive: Language-enhanced Goal-oriented <br> Closed-Loop End-to-End Autonomous Driving
 
-![Teaser](/assests/teaser-wide.png)
+![Teaser](/assets/teaser-wide.png)
 
 <table align="center" border="0">
     <tr>
