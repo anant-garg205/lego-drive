@@ -2,7 +2,7 @@
 
 [Pranjal Paul](https://scholar.google.com/citations?user=4pZlCV4AAAAJ&hl=en) <sup>\*1</sup>,
 [Anant Garg](https://anant-garg205.github.io/) <sup>\*1</sup>,
-[Tushar Chaudhary]() <sup>\1</sup>,
+[Tushar Chaudhary](www.google.com) <sup>\1</sup>,
 [Arun Kumar Singh](https://tuit.ut.ee/en/content/arun-kumar-singh) <sup>2</sup>,
 [Madhava Krishna](https://www.iiit.ac.in/people/faculty/mkrishna/) <sup>1</sup>,
 
