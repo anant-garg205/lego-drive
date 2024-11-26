@@ -1,3 +1,8 @@
+'''
+    Date: August 19, 2023
+    Description: Script for manual control in CARLA
+'''
+
 import carla
 import numpy
 import pygame

@@ -1,3 +1,8 @@
+'''
+	Date: August 19, 2023
+	Description: Script to have abstract class for different CARLA types
+'''
+
 import carla
 from carla import ColorConverter as cc
 import numpy as np
