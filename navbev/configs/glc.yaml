@@ -1,0 +1,47 @@
+
+paths:
+  glove_dir: glove
+  deeplab_chkpt: ${image_enc.model}_coco-cd0a2569
+  # goalpred_chkpt: goal_chkpt
+  goalpred_chkpt: carla_goal_55
+
+image_enc:
+  model: deeplabv3_resnet50
+
+text_enc:
+  vocab_size: 8801
+  seq_length: 40
+
+model:
+  inp_dim: 2048
+  out_dim: 512
+  dropout: 0.25
+  stride: 2
+  n_layers: 1
+  enc_layers: 1
+  n_workers: 4
+  skip: False
+
+train:
+  batch: 16  # should be same as planner
+  n_workers: ${model.n_workers}
+  n_epochs: 20
+  lr: 3e-4
+  wd: 5e-3
+  loss: bce
+
+infer:
+  feat_dim: 14
+  resize: ${mask.size}
+  normalize_goal: True
+
+mask:
+  size: 448
+  thresh: 0.4
+
+normalize_params:
+  goal:
+    mu_x: 199.4807373935526
+    mu_y: 272.80899867844689
+    sigma_x: 50.5405128652399
+    sigma_y: 15.042832826439472

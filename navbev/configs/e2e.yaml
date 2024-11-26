@@ -1,0 +1,11 @@
+
+train:
+  batch: 16
+  n_workers: 4
+  epochs: 100
+  lr: 3e-4
+
+datapath:
+  images: images
+  masks: mask
+  commands: commands.json

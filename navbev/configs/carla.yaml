@@ -1,0 +1,47 @@
+
+dataroot: dataset/carla_data
+town: town10
+
+spawn:
+  random: True
+  loc: [0, 0, 0]
+
+lane_width: 3.5
+bev_size: 200
+bev_res: 0.5
+
+pure_pursuit:
+  look_ahead: 1.0
+  sK: 0
+
+vehicle:
+  max_steer: 0.5236
+  wheel_base: 2.5
+
+weathers:
+  noon:
+    cloudiness: 100.0
+    sun_altitude_angle: 90.0
+    precipitation_deposits: 0.0
+  
+  wet:
+    cloudiness: 100.0
+    sun_altitude_angle: 0.0
+    precipitation_deposits: 0.0
+
+  evening:
+    cloudiness: 0.0
+    sun_altitude_angle: 0.0
+    precipitation_deposits: 0.0
+
+data_collection:
+  town: Town01
+  # town: Town10HD
+  dist_to_waypoint_threshold: 40
+  next_waypoint_distance: 50
+  save_base_folder: /home/anant.garg/Videos/data
+  ego_center_lane_res: 0.05
+
+stp3:
+  checkpoint: baseline/stp3_carla
+

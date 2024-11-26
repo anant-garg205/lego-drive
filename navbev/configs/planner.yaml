@@ -1,0 +1,26 @@
+
+inference:
+  chkpt: ${train.n_epochs} # random100-1
+
+n_interp: 100
+n_closest_obstacle: 4
+horizon: 6
+ref_path_res: 2000
+
+mlp:
+  hidden_dim: 1024
+  out_weight: [2, 2, 4]
+
+pointnet:
+  input_dim: ${n_closest_obstacle}
+  hidden_dim: 1024
+  out_dim: 40
+
+train:
+  n_epochs: 100
+  batch_size: 16
+  n_workers: 4
+  optim_lr: 2e-3
+  optim_wd: 6e-5
+  schd_step: 30
+  cost_weights: [3, 5, 1] # [5, 10, 1] # primal, goal, smoothness
