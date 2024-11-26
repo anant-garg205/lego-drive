@@ -1,5 +1,15 @@
 # LeGo-Drive: Language-enhanced Goal-oriented <br> Closed-Loop End-to-End Autonomous Driving
 
+[Pranjal Paul](https://scholar.google.com/citations?user=4pZlCV4AAAAJ&hl=en) <sup>\*1</sup>,
+[Anant Garg](https://anant-garg205.github.io/) <sup>\*1</sup>,
+[Tushar Chaudhary]() <sup>\1</sup>,
+[Arun Kumar Singh](https://tuit.ut.ee/en/content/arun-kumar-singh) <sup>2</sup>,
+[Madhava Krishna](https://www.iiit.ac.in/people/faculty/mkrishna/) <sup>1</sup>,
+
+<sup>1</sup>International Institute of Information Technology, Hyderabad, <sup>2</sup>University of Tartu
+
+<sup>\*</sup>denotes equal contribution
+
 ![Teaser](/assets/teaser-wide.png)
 
 <table align="center" border="0">
