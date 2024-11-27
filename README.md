@@ -53,6 +53,8 @@ This will load a pre-recorded scenario in CARLA and will prompt the user to type
 ```
 python3 navbev/sim/run_demo.py
 ```
+Expected result with the default scenario file. <br>
+Language command example: "Park near the food stall on the right"
 <img src="/assets/demo_result_T10_0050.png" alt="demo_run" width="500"/>
 
 
