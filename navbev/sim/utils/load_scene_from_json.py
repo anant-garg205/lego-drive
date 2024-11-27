@@ -69,6 +69,7 @@ class LoadScenario:
 			scenario_data = json.load(f)
 
 		# Extract relevant scenario details from the JSON
+		self.town = scenario_data.get('Town', None)
 		self.vehicles = scenario_data.get('vehicles', [])
 		self.weather = scenario_data.get('weather', None)
 
@@ -76,6 +77,9 @@ class LoadScenario:
 		self.new_local_goal = scenario_data.get('new_local_goal', None)
 
 		self.delta_d = scenario_data.get('delta_d', None)
+
+		if self.town:
+			self.world = self.client.load_world(self.town)
 
 		# Set the weather if specified
 		if self.weather:
