@@ -35,10 +35,11 @@
 <hr>
 
 ## Run demo
+This will load a pre-recorded scenario in CARLA and will prompt the user to type in a language command.
 ```
 python3 navbev/sim/run_demo.py
 ```
-This will load a pre-recorded scenario in CARLA and will prompt the user to type in a language command.
+
 
 ### Cite Us
 ```
