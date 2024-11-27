@@ -53,7 +53,7 @@ This will load a pre-recorded scenario in CARLA and will prompt the user to type
 ```
 python3 navbev/sim/run_demo.py
 ```
-![demo_run](/assets/demo_result_T10_0050.png)
+![demo_run](/assets/demo_result_T10_0050.png=250x)
 
 
 ### Cite Us
