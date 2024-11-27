@@ -34,6 +34,20 @@
 
 <hr>
 
+## Setup
+Download and setup CARLA 0.9.15
+```
+mkdir carla
+cd carla
+wget https://carla-releases.s3.eu-west-3.amazonaws.com/Linux/CARLA_0.9.15.tar.gz
+wget https://carla-releases.s3.eu-west-3.amazonaws.com/Linux/AdditionalMaps_0.9.15.tar.gz
+tar -xf CARLA_0.9.15.tar.gz
+tar -xf AdditionalMaps_0.9.15.tar.gz
+rm CARLA_0.9.15.tar.gz
+rm AdditionalMaps_0.9.15.tar.gz
+cd ..
+```
+
 ## Run demo
 This will load a pre-recorded scenario in CARLA and will prompt the user to type in a language command.
 ```
