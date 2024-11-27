@@ -1,0 +1,103 @@
+{
+    "vehicles": [
+      {
+        "blueprint": "vehicle.tesla.model3",
+        "color": "255,0,0",
+        "location": {
+          "x": 1.92,
+          "y": 19.46,
+          "z": 2.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -90,
+          "roll": 0.0
+        }
+      },
+      {
+        "blueprint": "vehicle.audi.tt",
+        "color": "50,100,50",
+        "location": {
+          "x": 15.0,
+          "y": 14,
+          "z": 2.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -180,
+          "roll": 0.0
+        }
+      },
+      {
+        "blueprint": "vehicle.nissan.micra",
+        "color": "0,0,255",
+        "location": {
+          "x": 15,
+          "y": -20,
+          "z": 2.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -180,
+          "roll": 0.0
+        }
+      }
+      
+    ],
+    "weather": {
+      "cloudiness": 50.0,
+      "precipitation": 10.0,
+      "precipitation_deposits": 10.0,
+      "wind_intensity": 20.0,
+      "sun_azimuth_angle": 45.0,
+      "sun_altitude_angle": 10.0
+    },
+  
+    "start_waypoint": {
+      "location": {
+        "x": 8.5,
+        "y": 78.5,
+        "z": 0.5
+      },
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": -90.0,
+        "roll": 0.0
+      }
+    },
+  
+    "end_waypoint": {
+      "location": {
+        "x": 8.5,
+        "y": -10.0,
+        "z": 0.5
+      },
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": -90.0,
+        "roll": 0.0
+      }
+    },
+
+    "old_local_goal": {
+        "x": 19.40,
+        "y": -12.31,
+        "z": 0.0,
+        "yaw": 1.57
+    },
+    "new_local_goal": {
+        "x": 17.40,
+        "y": -8.66,
+        "z": 0.0,
+        "yaw": 1.57
+    },
+
+    "old_pixel_goal": {
+        "u": 312,
+        "v": 502
+    },
+    "new_pixel_goal": {
+        "u": 348,
+        "v": 504
+    }
+  }

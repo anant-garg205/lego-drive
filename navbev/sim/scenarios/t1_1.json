@@ -1,0 +1,123 @@
+{
+    "vehicles": [
+      {
+        "blueprint": "vehicle.tesla.model3",
+        "color": "255,0,0",
+        "location": {
+          "x": 318.23,
+          "y": 1.98,
+          "z": 2.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0,
+          "roll": 0.0
+        }
+      },
+      {
+        "blueprint": "vehicle.audi.tt",
+        "color": "50,100,50",
+        "location": {
+          "x": 4,
+          "y": -3.5,
+          "z": 2.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -180,
+          "roll": 0.0
+        }
+      },
+      {
+        "blueprint": "vehicle.nissan.micra",
+        "color": "255,0,0",
+        "location": {
+          "x": 35,
+          "y": 0,
+          "z": 2.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0,
+          "roll": 0.0
+        }
+      },
+      {
+        "blueprint": "vehicle.nissan.micra",
+        "color": "0,0,255",
+        "location": {
+          "x": 15,
+          "y": 12,
+          "z": 2.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -180,
+          "roll": 0.0
+        }
+      }      
+    ],
+    "weather": {
+      "cloudiness": 50.0,
+      "precipitation": 10.0,
+      "precipitation_deposits": 10.0,
+      "wind_intensity": 20.0,
+      "sun_azimuth_angle": 45.0,
+      "sun_altitude_angle": 10.0
+    },
+  
+    "start_waypoint": {
+      "location": {
+        "x": 8.5,
+        "y": 78.5,
+        "z": 0.5
+      },
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": -90.0,
+        "roll": 0.0
+      }
+    },
+  
+    "end_waypoint": {
+      "location": {
+        "x": 8.5,
+        "y": -10.0,
+        "z": 0.5
+      },
+      "rotation": {
+        "pitch": 0.0,
+        "yaw": -90.0,
+        "roll": 0.0
+      }
+    },
+
+    "old_local_goal": {
+        "x": 17.90,
+        "y": -6.96,
+        "z": 0.0,
+        "yaw": -0.9
+    },
+    "new_local_goal": {
+        "x": 16.90,
+        "y": -7.46,
+        "z": 0.0,
+        "yaw": -1.57
+    },
+    "delta_d": {
+      "x": 0.2,
+      "y": -0.2,
+      "yaw": 0.0
+    },
+
+    "old_pixel_goal": {
+        "u": 312,
+        "v": 502
+    },
+    "new_pixel_goal": {
+        "u": 348,
+        "v": 504
+    },
+    "Town": {"Town01"}
+
+}
