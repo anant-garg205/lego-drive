@@ -67,6 +67,6 @@ python3 navbev/sim/run_demo.py
 
 ## Contact
 
-Pranjal Paul: [pranjal.paul@research.iiit.ac.in](pranjal.paul@research.iiit.ac.in)
+Pranjal Paul: [pranjal.paul@research.iiit.ac.in](pranjal.paul@research.iiit.ac.in) \br
 Anant Garg: [garg.anant205@gmail.com](garg.anant205@gmail.com)
 
